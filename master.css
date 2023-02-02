@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.wrap{
+    width: 100%;
+    height: 2160px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    }
+
+.menubarbox{
+        width: 212px;
+        height: 526px;
+        top: 150px;
+        left: 127px;
+        position: fixed;
+        z-index: 2;
+    }
+/* 메인페이지1 */
+.logo{
+    margin-top: 172px;
+    margin-left: 688px;
+    position: absolute;
+    }
+.mainbg{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.scroll{
+    margin-left: 896px;
+    position: absolute;
+    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
+}      
+@keyframes motion {
+	0% {margin-top: 700px;}
+	100% {margin-top: 710px;}
+}
+.dino{
+    position: fixed;
+    animation: dino 15s linear 0s infinite alternate; margin-left: 0; mar 
+}
+@keyframes dino {
+	0% {margin-left: 460px;}
+	100% {margin-left: 1024px;}
+    0% {margin-top: 738px;}
+	5% {margin-top: 734px;}
+    10% {margin-top: 738px;}
+    15% {margin-top: 734px;}
+    20% {margin-top: 738px;}
+    25% {margin-top: 734px;}
+    30% {margin-top: 738px;}
+    35% {margin-top: 734px;}
+    40% {margin-top: 738px;}
+    45% {margin-top: 734px;}
+    50% {margin-top: 738px;}
+    55% {margin-top: 734px;}
+	60% {margin-top: 738px;}
+    65% {margin-top: 734px;}
+    70% {margin-top: 738px;}
+    75% {margin-top: 734px;}
+    80% {margin-top: 738px;}
+    85% {margin-top: 734px;}
+    90% {margin-top: 738px;}
+    95% {margin-top: 734px;}
+    100% {margin-top: 738px;}
+}
+/* 메인페이지2 */
+.text1{
+    margin-top: 1399px;
+    margin-left: 460px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #262625;
+    z-index: 1;
+}
+.text2{
+    width: 499px;
+    height: 55px;
+    margin-top: 1558px;
+    margin-left: 460px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #262625;
+    z-index: 1;
+}
+.text3{
+    margin-top: 1645px;
+    margin-left: 460px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: #262625;
+    z-index: 1;
+}
+.text4{
+    width: 499px;
+    height: 90px;
+    margin-top: 1733px;
+    margin-left: 460px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #262625;
+    z-index: 1;
+}
+.text5{
+    margin-top: 1315px;
+    margin-left: 1058px;
+    position: absolute;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: #262625;
+    z-index: 1;
+}
+.profile{
+    margin-top: 1446px;
+    margin-left: 1062px;
+    position: absolute;
+    z-index: 1;
+}
+/*메인메뉴바*/
+.menubar{
+    position: absolute;
+}
+.main{
+    margin-left: 28px;
+    margin-top: 72px;
+    position: absolute;
+}
+.ui{
+    margin-left: 28px;
+    margin-top: 148px;
+    position: absolute;
+}
+.web{
+    margin-left: 28px;
+    margin-top: 225px;
+    position: absolute;
+
+}
+.bi{
+    margin-left: 28px;
+    margin-top: 301px;
+    position: absolute;
+
+}
+.edi{
+    margin-left: 28px;
+    margin-top: 378px;
+    position: absolute;
+
+}
+.cont{
+    margin-left: 28px;
+    margin-top: 454px;
+    position: absolute;
+
+}
+/*uiux페이지*/
+.uiuxbg{
+    position: absolute;
+    margin-top: 130px;
+}
+.uiuxtext1{
+    margin-left: 460px;
+    margin-top: 437px;
+    position: absolute;
+}
+.uiuxtext2{
+    margin-left: 460px;
+    margin-top: 1399px;
+    position: absolute;
+}
+.uiuxbutton1{
+    margin-left: 460px;
+    margin-top: 683px;
+    position: absolute;
+}
+.uiuxbutton2{
+    margin-left: 460px;
+    margin-top: 1645px;
+    position: absolute;
+}
+
+/*마이닥*/
+.mydoc1{
+    margin-left: 608px;
+    margin-top: 135px;
+    position: absolute;
+}
+.mydoc2{
+    margin-left: 450px;
+    margin-top: 1400px;
+    position: absolute;
+}
+.mydoc3{
+    margin-left: 450px;
+    margin-top: 3928px;
+    position: absolute;
+}
+.mydoc4{
+    margin-top: 6186px;
+    position: absolute;
+}
+.mydoc5{
+    margin-top: 8503px;
+    position: absolute;
+}
+.mydoc6{
+    margin-top: 10222px;
+    position: absolute;
+}
+.mydoc7{
+    margin-top: 12891px;
+    position: absolute;
+}
+/*패스트룸*/
+.fastroombg{
+    background: #6C1FFF 0% 0% no-repeat padding-box;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 16362px;
+    position: absolute;
+}
+.fastroom1{
+    margin-left: 372px;
+    margin-top: 298px;
+    position: absolute;
+}
+.fastroom2{
+    margin-top: 1207px;
+    position: absolute;
+}
+.fastroom3{
+    margin-left: 434px;
+    margin-top: 2625px;
+    position: absolute;
+}
+.fastroom4{
+    margin-top: 5802px;
+    position: absolute;
+}
+.fastroom5{
+    margin-top: 8301px;
+    position: absolute;
+}
+.fastroom6{
+    margin-top: 10435px;
+    position: absolute;
+}
+.fastroom7{
+    margin-top: 14768px;
+    position: absolute;
+}
+
+/*web페이지*/
+.webbg{
+    position: absolute;
+    margin-top: 130px;
+}
+.webtext1{
+    margin-left: 460px;
+    margin-top: 437px;
+    position: absolute;
+}
+.webtext2{
+    margin-left: 460px;
+    margin-top: 1399px;
+    position: absolute;
+}
+.webbutton1{
+    margin-left: 460px;
+    margin-top: 683px;
+    position: absolute;
+}
+.webbutton2{
+    margin-left: 460px;
+    margin-top: 1645px;
+    position: absolute;
+}
+/*미켈란젤로*/
+.mich1{
+    position: absolute;
+}
+.mich2{
+    margin-left: 533px;
+    margin-top: 1274px;
+    position: absolute;
+}
+.mich3{
+    margin-left: 460px;
+    margin-top: 2139px;
+    position: absolute;
+}
+.mich4{
+    margin-left: 460px;
+    margin-top: 5343px;
+    position: absolute;
+}
+.mich5{
+    margin-left: 460px;
+    margin-top: 8519px;
+    position: absolute;
+}
+.mich6{
+    margin-left: 460px;
+    margin-top: 11693px;
+    position: absolute;
+}
+.mich7{
+    margin-left: 460px;
+    margin-top: 14867px;
+    position: absolute;
+}
+.mich8{
+    margin-top: 18043px;
+    position: absolute;
+}
+/*대림미술관*/
+.dae1{
+    position: absolute;
+}
+.dae2{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 1388px;
+}
+.dae3{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 2736px;
+}
+.dae4{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 7516px;
+}
+.dae5{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 10434px;
+}
+.dae6{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 12951px;
+}
+.dae7{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 15563px;
+}
+.dae8{
+    position: absolute;
+    margin-top: 19215px;
+}
+/*BI*/
+.bibg{
+    position: absolute;
+    margin-top: 130px;
+}
+.bitext1{
+    margin-left: 460px;
+    margin-top: 437px;
+    position: absolute;
+}
+.bitext2{
+    margin-left: 460px;
+    margin-top: 1399px;
+    position: absolute;
+}
+.bibutton1{
+    margin-left: 460px;
+    margin-top: 683px;
+    position: absolute;
+}
+.bibutton2{
+    margin-left: 460px;
+    margin-top: 1645px;
+    position: absolute;
+}
+/*사조*/
+.sajo1{
+    position: absolute;
+    margin-top: 400px;
+}
+.sajo2{
+    position: absolute;
+    margin-top: 1080px;
+}
+/*시타델*/
+.citadel1{
+    position: absolute;
+}
+.citadel2{
+    position: absolute;
+    margin-top: 1184px;
+}
+/*editorial*/
+.edibg{
+    position: absolute;
+    margin-top: 130px;
+}
+.editext1{
+    margin-left: 460px;
+    margin-top: 437px;
+    position: absolute;
+}
+.editext2{
+    margin-left: 460px;
+    margin-top: 1399px;
+    position: absolute;
+}
+.edibutton1{
+    margin-left: 460px;
+    margin-top: 683px;
+    position: absolute;
+}
+.edibutton2{
+    margin-left: 460px;
+    margin-top: 1645px;
+    position: absolute;
+}
+/*허브루발린*/
+.herbert1{
+    position: absolute;
+}
+.herbert2{
+    position: absolute;
+    margin-top: 1417px;
+    margin-left: 585px;
+}
+.herbert3{
+    position: absolute;
+    margin-top: 18344px;
+}
+/*bts*/
+.bts1{
+    position: absolute;
+}
+.bts2{
+    position: absolute;
+    margin-top: 1498px;
+    margin-left: 585px;
+}
+.bts3{
+    position: absolute;
+    margin-top: 10819px;
+}
+/*contact*/
+.cont1{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+}
